@@ -8,42 +8,64 @@
 <body bgcolor="#EBDDE2">
 <form>
     <h2>Форма для додавання викладачів</h2>
-    Ім'я викладача: <br>
-    <input type="text" name="firstname"><br>
-    <br>Прізвище викладача: <br>
-    <input type="text" name="lastname"><br>
-    <br>По-батькові викладача: <br>
-    <input type="text" name="parentsname"><br>
-    <br>Дата народження викладача: <br>
-    <input type="date" name="birthday" min="1900-12-31" max="2015-01-31"><br>
-    <br>Оберіть стать: <br>
-    <input type="radio" name="gender" value="male">Чоловік<br>
-    <input type="radio" name="gender" value="female">Жінка<br>
-    <input type="radio" name="gender" value="other">Інше<br>
-    <br>Email викладача: <br>
-    <input type="email" name="email"><br>
-    <br>Номер телефону викладача: <br>
-    <input type="tel" name="phonenum"><br>
-    <br>Оберіть країну: <br>
-    <select name="countries">
-        <option value="ukraine">Україна</option>
-        <option value="sweiss">Швейцарія</option>
-        <option value="sakartvelo">Сакартвело</option>
-        <option value="denmark">Данія</option>
-        <option value="germany">Німеччина</option>
-    </select><br>
-    <br>Оберіть місто: <br>
-    <select name="cities">
-        <option value="kyiv">Київ</option>
-        <option value="basel">Базель</option>
-        <option value="tbilisi">Тбілісі</option>
-        <option value="kopenhagen">Копенгаген</option>
-        <option value="wald-michelbach">Вальд-Міхельбах</option>
-    </select><br>
-    <br>Оберіть бажаний колір фону:<br>
-    <input type="color" value="#ff0000" />
-    <br>Додайте коментар:<br>
-    <textarea placeholder="Введіть ваш текст..."></textarea>
+    <section>
+        <br>Ім'я викладача:<br>
+        <input type="text" name="firstname">
+    </section>
+    <section>
+        <br>Прізвище викладача:<br>
+        <input type="text" name="lastname">
+    </section>
+    <section>
+        <br>По-батькові викладача:<br>
+        <input type="text" name="parentsname"><br>
+    </section>
+    <section>
+        <br>Дата народження викладача:<br>
+        <input type="date" name="birthday" min="1900-12-31" max="2015-01-31"><br>
+    </section>
+   <section>
+       <br>Оберіть стать: <br>
+       <input type="radio" name="gender" value="male">Чоловік<br>
+       <input type="radio" name="gender" value="female">Жінка<br>
+       <input type="radio" name="gender" value="other">Інше<br>
+   </section>
+    <section>
+        <br>Email викладача: <br>
+        <input type="email" name="email"><br>
+    </section>
+    <section>
+        <br>Номер телефону викладача: <br>
+        <input type="tel" name="phonenum"><br>
+    </section>
+    <section>
+        <br>Оберіть країну: <br>
+        <select name="countries">
+            <option value="ukraine">Україна</option>
+            <option value="sweiss">Швейцарія</option>
+            <option value="sakartvelo">Сакартвело</option>
+            <option value="denmark">Данія</option>
+            <option value="germany">Німеччина</option>
+        </select><br>
+    </section>
+    <section>
+        <br>Оберіть місто: <br>
+        <select name="cities">
+            <option value="kyiv">Київ</option>
+            <option value="basel">Базель</option>
+            <option value="tbilisi">Тбілісі</option>
+            <option value="kopenhagen">Копенгаген</option>
+            <option value="wald-michelbach">Вальд-Міхельбах</option>
+        </select><br>
+    </section>
+    <section>
+        <br>Оберіть бажаний колір фону:<br>
+        <input type="color" value="#ff0000" />
+    </section>
+    <section>
+        <br>Додайте коментар:<br>
+        <textarea placeholder="Введіть ваш текст..."></textarea>
+    </section>
     <br><button type="button" onclick="alert('Викладача додано')" style="width: 140px; height: 40px">Додати викладача</button>
 </form>
 </body>
